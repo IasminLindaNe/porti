@@ -1,0 +1,24 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+#sobre {
+  scroll-margin-top: 100px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover,
+#sobre:hover ~ a[href="#sobre"] {
+  background-color: #f00;
+  color: #fff;
+}

@@ -1,0 +1,162 @@
+
+body {
+    /* background-image:url(loli.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-position: 580px 200px;*/
+    background-color: #1e111d;
+}
+
+
+
+header{
+    background-color: #1e111d;
+    padding: 13px 100% 0 0;
+    position: fixed;
+    width: 100%;
+}
+
+.titulo {
+    margin: 0%;
+    width: 100%;
+    color: white;
+    padding: 0 0 0 65px;
+    font-family: Snell Roundhand;
+    font-size: 16px;
+    
+}
+
+.titulo:hover {
+    text-decoration: none;
+}
+
+.subtitulo  {
+    margin: 0%;
+    width: 25%;
+    color: #642764;
+    padding: 0 0 0 65px;
+    font-family: Snell Roundhand;
+    font-size: 16px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.nave {
+    margin-top: 5px;
+}
+
+
+div nav {
+    width: 100%;
+    text-align: right;
+    display: block;
+    position: fixed;
+    color: white;
+    
+}
+.link {
+    padding: 0 50px 0 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: #642764;
+}
+
+div {
+    display:flex;
+}
+
+p {
+    margin: 0%;
+    color: #642764;
+    padding: 0 0 0 65px;
+    font-family: Snell Roundhand;
+    font-size: 16px;
+   
+}
+
+main p {
+    font-size: 80px;
+    width: 15%;
+    color: white;
+    font-family: Snell Roundhand;
+    margin-top: 25px;
+
+    
+}
+
+.btn {
+    border-radius: 25px;
+    background: none;
+    color: white;
+    width: 23%;
+    padding: 9px 50px 9px 50px;
+    font-family: Snell Roundhand;
+    margin-left: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: auto;
+}
+
+.btn:hover {
+    background-color: #642764;
+    transform-style:preserve-3d;
+    
+}
+
+
+section  {
+    display: flex;
+}
+
+.mulher {
+    padding: 0 0 0 40%;
+    width: 25%;
+    margin-top: 6%;
+}
+
+section p {
+    margin-top: 8%;
+}
+
+.sobre {
+    width: 50%;
+    margin-top: 13%;
+}
+
+.lorem {
+   font-size: large;
+   width: 50%;
+   font-size: 25px;
+}
+
+
+.fotoPort {
+    width: 25%;
+    align-items: end;
+    margin-left: 150px;
+}
+
+.proj {
+    width: 25%;
+    text-align: center;
+}
+
+.fotoProj {
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.fotoProj:hover {
+    
+}
+
+.tituloProjetos {
+    margin-bottom: 60px;
+}
